@@ -22,12 +22,12 @@ Command line examples:
 package logflag
 
 import (
-	"flag"
+	"github.com/namsral/flag"
 	"fmt"
 	"regexp"
 	"strings"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 )
 
 // stringslice stores multi-value command line arguments.
