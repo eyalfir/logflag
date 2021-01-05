@@ -1,5 +1,7 @@
 # logflag provides a `-log` command line flag to customize default logrus logger
 
+** This is a fork of (reenjii/logflag), which is based on (namsral/flag) instead of vanilla flag **
+
 See [logrus](https://github.com/sirupsen/logrus): structured, pluggable logging for Go.
 
 Simply import package and call `logflag.Parse()` after `flag.Parse()`.
